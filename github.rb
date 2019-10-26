@@ -5,8 +5,8 @@ changes = false
 puts "There are #{changes == true ? "" : "no"} changes".
 
 # Make a change here.
-changes = false
-
+changes = true
+# i made a change lets commit
 if changes == true
   puts "we need to add and commit our changes"
   commit = true
